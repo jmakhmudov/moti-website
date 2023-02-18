@@ -35,11 +35,54 @@
     margin-top: 20px;
 }
 
+.textLine {
+    width: 100%;
+    overflow: hidden;
+    background-color: #BF2F21;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.textLine span {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation: infinite-running-text 100s linear infinite;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 1.5rem;
+}
+
+.galleryBox {
+    display: flex;
+    align-items: center;
+    padding: 100px 10vw;
+    justify-content: space-between;
+}
+
+.galleryBox .galleryInfo {
+    width: 400px;
+}
+
+@keyframes infinite-running-text {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

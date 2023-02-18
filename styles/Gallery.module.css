@@ -1,0 +1,24 @@
+.galleryBox {
+    
+}
+
+.galleryBox .mainImg {
+    width: 350px;
+}
+
+.photosList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.photosList img {
+    height: 100px;
+    cursor: pointer;
+}
+
+.selected {
+    opacity: 0.5;
+}

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
+import Gallery from '@/components/Gallery'
 
 export default function Home() {
   return (
@@ -24,6 +25,18 @@ export default function Home() {
           </div>
 
           <img src="./images/hero-moti.png" alt="Hero Image" className={styles.heroImg} />
+        </section>
+
+        <div className={styles.textLine}>
+          <span>MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI · MOTI</span>
+        </div>
+
+        <section className={styles.galleryBox}>
+          <Gallery />
+          <div className={styles.galleryInfo}>
+            <h1>Прекрасная атмосфера</h1>
+            <p>Добро пожаловать в наш ресторан азиатской кухни, где вы сможете насладиться вкусом и атмосферой Востока. Как только вы переступите порог нашего заведения, вы ощутите ароматы специй, украсившие нашу атмосферу, и услышите приятную музыку, которая перенесет вас в далекие уголки Азии.</p>
+          </div>
         </section>
       </main>
     </>
