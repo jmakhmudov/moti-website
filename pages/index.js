@@ -34,9 +34,14 @@ export default function Home() {
         <section className={styles.galleryBox}>
           <Gallery />
           <div className={styles.galleryInfo}>
-            <h1>Прекрасная атмосфера</h1>
+            <h1>Прекрасная <span>атмосфера</span></h1>
             <p>Добро пожаловать в наш ресторан азиатской кухни, где вы сможете насладиться вкусом и атмосферой Востока. Как только вы переступите порог нашего заведения, вы ощутите ароматы специй, украсившие нашу атмосферу, и услышите приятную музыку, которая перенесет вас в далекие уголки Азии.</p>
           </div>
+        </section>
+
+        <section className={styles.deliveryBox}>
+          <h1>Доставка <span>бесплатная</span> до <span>10</span>км</h1>
+          <img src="./images/car.png" alt="delivery" />
         </section>
       </main>
     </>

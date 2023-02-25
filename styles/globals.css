@@ -18,3 +18,15 @@ a:visited {
   text-decoration: none;
   color: #343434;
 }
+
+p {
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+span {
+  color: #BF2F21;
+}

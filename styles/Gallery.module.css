@@ -1,21 +1,30 @@
 .galleryBox {
-    
+    display: flex;
+    align-items: center;
+}
+
+.galleryBox img {
+    border-radius: 10px;
 }
 
 .galleryBox .mainImg {
+    height: 460px;
     width: 350px;
+    object-fit: contain;
 }
 
 .photosList {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 350px;
-    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 10px;
 }
 
 .photosList img {
-    height: 100px;
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
     cursor: pointer;
 }
 

@@ -8,15 +8,11 @@
 
 .heroTitle {
     font-weight: 800;
-    font-size: 64px;
-}
-
-.heroTitle span {
-    color: #BF2F21;
+    font-size: 4vw;
 }
 
 .heroImg {
-    width: 800px;
+    width: 50vw;
     z-index: 10;
     animation: spin 25s linear infinite;
     margin-right: -20%;
@@ -39,18 +35,19 @@
     width: 100%;
     overflow: hidden;
     background-color: #BF2F21;
-    height: 80px;
+    padding: 20px 0;
     display: flex;
     align-items: center;
+    margin-top: 100px;
 }
 
 .textLine span {
     display: inline-block;
     white-space: nowrap;
     padding-right: 100%;
-    animation: infinite-running-text 100s linear infinite;
+    animation: infinite-running-text 300s linear infinite;
     color: white;
-    font-size: 40px;
+    font-size: 2.2vw;
     font-weight: 100;
     letter-spacing: 1.5rem;
 }
@@ -63,8 +60,73 @@
 }
 
 .galleryBox .galleryInfo {
-    width: 400px;
+    width: 30vw;
 }
+
+.galleryInfo h1 {
+    margin-bottom: 20px;
+}
+
+.deliveryBox {
+    padding: 50px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deliveryBox img {
+    width: 40vw;
+}
+
+.deliveryBox h1 {
+    width: 30vw;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 991px) {
+    .heroBox {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+        padding: 0 10vw;
+    }
+
+    .heroImg {
+        margin: 0;
+    }
+
+    .heroInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .galleryBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .galleryBox .galleryInfo{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .deliveryBox {
+        flex-direction: column-reverse;
+    }
+
+    .deliveryBox img {
+        width: 60vw;
+    }
+
+    .deliveryBox h1 {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
 
 @keyframes infinite-running-text {
     from {

@@ -14,10 +14,10 @@ export default function Gallery() {
         <div className={styles.galleryBox}>
             <img className={styles.mainImg} src={img} alt="" id="mainImg"/>
             <div className={styles.photosList}>
-                <img src="./images/IMG_0029.png" alt="" onClick={(e) => handleClick(e)}/>
-                <img src="./images/IMG_0027.png" alt="" onClick={(e) => handleClick(e)}/>
-                <img src="./images/IMG_0642.png" alt="" onClick={(e) => handleClick(e)}/>
-                <img src="./images/IMG_0643.png" alt="" onClick={(e) => handleClick(e)}/>
+                <img src="./images/IMG_0029.png" alt="" onMouseOver={(e) => handleClick(e)} onClick={(e) => handleClick(e)}/>
+                <img src="./images/IMG_0027.png" alt="" onMouseOver={(e) => handleClick(e)} onClick={(e) => handleClick(e)}/>
+                <img src="./images/IMG_0642.png" alt="" onMouseOver={(e) => handleClick(e)} onClick={(e) => handleClick(e)}/>
+                <img src="./images/IMG_0643.png" alt="" onMouseOver={(e) => handleClick(e)} onClick={(e) => handleClick(e)}/>
             </div>
         </div>
     )
