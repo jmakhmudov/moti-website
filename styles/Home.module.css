@@ -106,7 +106,7 @@
         align-items: flex-start;
     }
 
-    .galleryBox .galleryInfo{
+    .galleryBox .galleryInfo {
         width: 100%;
         margin-top: 20px;
     }
@@ -116,7 +116,7 @@
     }
 
     .deliveryBox img {
-        width: 60vw;
+        width: 80vw;
     }
 
     .deliveryBox h1 {
@@ -124,6 +124,28 @@
         width: 100%;
         margin-top: 20px;
     }
+
+}
+
+@media screen and (max-width: 479px) {
+    .heroImg {
+        width: 80vw;
+    }
+
+    .heroTitle {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .actionBtn {
+        width: 80vw;
+        margin-top: 30px;
+    }
+
+    .textLine span {
+        font-size: 24px;
+    }
+
 
 }
 
