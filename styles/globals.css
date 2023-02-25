@@ -11,7 +11,11 @@
 
 body {
   overflow-x: hidden;
-  background: #FFEBD9;
+  background-color: #FFEBD9;
+  background-image: url("../public/pattern.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 a:visited {
