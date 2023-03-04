@@ -11,7 +11,7 @@ export default function Menu() {
 
     useEffect(() => {
         for (let i = 1; i < 15; i++) {
-            setMenu(menu => [...menu, <div className={styles.menuCard}>
+            setMenu(menu => [...menu, <div key={i} className={styles.menuCard}>
                 <Image layout="fill" objectFit="contain" src={`/menu/${i}.jpg`} alt={i} />
             </div>])
         }
