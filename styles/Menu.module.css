@@ -1,0 +1,20 @@
+.menuCard {
+    position: relative;
+    width: 80dvw;
+    height: 600px;
+}
+
+.menuList {
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+@media screen and (max-width: 479px) {
+    .menuCard {
+        height: 200px;
+        width: 90dvw;
+    }
+}
