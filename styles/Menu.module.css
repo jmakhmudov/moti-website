@@ -4,6 +4,10 @@
     height: 600px;
 }
 
+.menuList > h1 {
+    margin-bottom: 20px;
+}
+
 .menuList {
     margin-top: 50px;
     display: grid;
