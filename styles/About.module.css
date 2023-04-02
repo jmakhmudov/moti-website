@@ -1,0 +1,13 @@
+.aboutBox {
+    width: 100dvw;
+    height: 75dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutInfo p {
+    margin-top: 20px;
+    width: 50vw;
+}

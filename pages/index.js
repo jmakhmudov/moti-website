@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Gallery from '@/components/Gallery'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -25,7 +26,9 @@ export default function Home() {
             </button>
           </div>
 
-          <img src="./images/hero-moti.png" alt="Hero Image" className={styles.heroImg} />
+          <div className={styles.heroImg}>
+            <Image src="/images/hero-moti.png" layout='fill' loading='eager' alt="Hero Image" className={styles.heroImg} />
+          </div>
         </section>
 
         <div className={styles.textLine}>

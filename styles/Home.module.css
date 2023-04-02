@@ -4,6 +4,8 @@
     justify-content: space-between;
     padding: 0 0 0 10vw;
     margin-top: -80px;
+    height: 100dvh;
+    width: 100dvw;
 }
 
 .heroTitle {
@@ -12,7 +14,9 @@
 }
 
 .heroImg {
-    width: 50vw;
+    height: 80dvh;
+    width: 100dvw;
+    object-fit: contain;
     z-index: 10;
     animation: spin 25s linear infinite;
     margin-right: -20%;
@@ -61,6 +65,7 @@
 
 .galleryBox .galleryInfo {
     width: 30vw;
+    margin-left: 20px;
 }
 
 .galleryInfo h1 {
@@ -110,6 +115,7 @@
     .galleryBox .galleryInfo {
         width: 100%;
         margin-top: 20px;
+        margin-left: 0;
     }
 
     .deliveryBox {

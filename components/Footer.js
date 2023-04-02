@@ -4,7 +4,7 @@ export default function Footer() {
 
     return (
         <section className={styles.footer}>
-            <p>Made by <span>JM</span></p>
+            <p>Made by <a target="_blank" href="https://jmakhmudov.vercel.app/">JM</a></p>
         </section>
     )
 }
