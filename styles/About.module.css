@@ -1,13 +1,72 @@
 .aboutBox {
     width: 100dvw;
-    height: 75dvh;
+    min-height: 75dvh;
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+
+.aboutImg {
+    width: 40vw;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    position: relative;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.aboutInfo {
+    width: 90vw;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
 }
 
 .aboutInfo p {
+    width: 40vw;
     margin-top: 20px;
-    width: 50vw;
+    text-align: left;
+}
+
+.aboutInfo span {
+    font-weight: 700;
+}
+
+.phone {
+    font-weight: 700;
+    font-size: 24px;
+    color: #BF2F21;
+}
+.socials {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 950px) {
+    .aboutInfo {
+        display: grid;
+        place-items: center;
+    }
+
+    .aboutInfo p {
+        width: 90vw;
+    }
+
+    .aboutImg {
+        display: none;
+    }
+
+    .contacts {
+        display: grid;
+        place-items: center;
+    }
 }

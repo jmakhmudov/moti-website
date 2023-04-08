@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Gallery from '@/components/Gallery'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -21,13 +22,13 @@ export default function Home() {
             <div className={styles.heroTitle}>
               Почувствуйте вкус <span>паназиатской</span> кухни
             </div>
-            <button className={styles.actionBtn}>
+            <Link href="/book" className={styles.actionBtn}>
               Забронировать стол
-            </button>
+            </Link>
           </div>
 
           <div className={styles.heroImg}>
-            <Image src="/images/hero-moti.png" layout='fill' loading='eager' alt="Hero Image" className={styles.heroImg} />
+            <Image src="/images/hero-moti.png" layout='fill' alt="Hero Image" className={styles.heroImg} />
           </div>
         </section>
 
