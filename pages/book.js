@@ -8,7 +8,7 @@ export default function Book() {
     return (
         <>
             <Head>
-                <title>MOTI | О нас</title>
+                <title>MOTI | Забронировать</title>
                 <meta name="description" content="Ресторан азиатской кухни, где вы сможете насладиться вкусом и атмосферой Востока. Как только вы переступите порог нашего заведения, вы ощутите ароматы специй, украсившие нашу атмосферу, и услышите приятную музыку, которая перенесет вас в далекие уголки Азии." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/moti2.png" />

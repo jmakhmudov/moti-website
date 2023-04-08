@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           <div className={styles.heroImg}>
-            <Image src="/images/hero-moti.png" layout='fill' alt="Hero Image" className={styles.heroImg} />
+            <Image src="/images/hero-moti.png" layout='fill' alt="Hero Image" className={styles.heroImg} loading='eager' priority={true} />
           </div>
         </section>
 
