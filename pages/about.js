@@ -5,6 +5,7 @@ import Head from "next/head";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
 
@@ -47,16 +48,20 @@ export default function About() {
 
                         <section className={styles.contacts}>
                             <div className={styles.socials}>
-                                <FontAwesomeIcon icon={faInstagram} size="xl" />
+                                <Link target="_blank" rel="noreferrer" href="https://www.instagram.com/motitashkent/">
+                                    <FontAwesomeIcon icon={faInstagram} size="xl" />
+                                </Link>
 
-                                <FontAwesomeIcon icon={faTelegram} size="xl" />
+                                <Link target="_blank" rel="noreferrer" href="https://t.me/MotiPanasianRestaurant">
+                                    <FontAwesomeIcon icon={faTelegram} size="xl" />
+                                </Link>
                             </div>
 
                         </section>
                     </section>
 
                     <div className={styles.aboutImg}>
-                        <Image src={"/images/moti-logo.png"} layout="fill" className={styles.aboutImg}/>
+                        <Image src={"/images/moti-logo.png"} layout="fill" className={styles.aboutImg} />
                     </div>
 
                 </section>

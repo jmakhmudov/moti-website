@@ -45,7 +45,12 @@ export default function Home() {
         </section>
 
         <section className={styles.deliveryBox}>
-          <h1>Доставка <span>бесплатная</span> до <span>10</span>км</h1>
+          <div>
+            <h1>Доставка <span>бесплатная</span> до <span>10</span>км</h1>
+            <Link target='_blank' rel="noreferrer" href="https://t.me/motideliverybot" className={styles.actionBtn}>
+              Заказать
+            </Link>
+          </div>
           <img src="./images/car.png" alt="delivery" />
         </section>
 
